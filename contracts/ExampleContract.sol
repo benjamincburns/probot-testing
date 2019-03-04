@@ -1,9 +1,9 @@
-pragma solidity ^0.4.24;
+pragma solidity >=0.4.24 <0.6.0;
 
 contract ExampleContract {
   mapping(uint256 => uint256) public numberMapping;
 
-  function getExample() public pure returns (string) {
+  function getExample() public pure returns (string memory) {
     return "Example";
   }
 

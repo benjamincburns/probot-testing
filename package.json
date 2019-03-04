@@ -1,0 +1,15 @@
+{
+  "name": "probot-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:benjamincburns/consensys-india-training-6-2018.git",
+  "author": "Ben Burns <benjamin.c.burns@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.0.6"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test"
+  }
+}
