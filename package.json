@@ -6,7 +6,7 @@
   "author": "Ben Burns <benjamin.c.burns@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "truffle": "^5.0.6"
+    "truffle": "^4.1.15"
   },
   "scripts": {
     "build": "truffle compile",
